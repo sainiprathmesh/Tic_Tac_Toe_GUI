@@ -1,3 +1,5 @@
+import time
+
 import pygame as pg
 
 XO = 'x'
@@ -23,3 +25,10 @@ o_img = pg.image.load('o.png')
 x_img = pg.transform.scale(x_img, (80, 80))
 o_img = pg.transform.scale(o_img, (80, 80))
 opening = pg.transform.scale(opening, (width, height + 100))
+
+
+def game_opening():
+    screen.blit(opening, (0, 0))
+    pg.display.update()
+    time.sleep(1)
+    screen.fill(white)
