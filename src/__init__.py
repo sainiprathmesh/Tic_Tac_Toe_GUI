@@ -73,9 +73,12 @@ def check_win():
 
     for col in range(0, 3):
         if (TTT[0][col] == TTT[1][col] == TTT[2][col]) and (TTT[0][col] is not None):
-            # this column won
             winner = TTT[0][col]
-            # draw winning line
             pg.draw.line(screen, (250, 0, 0), ((col + 1) * width / 3 - width / 6, 0),
                          ((col + 1) * width / 3 - width / 6, height), 4)
             break
+
+    if (TTT[0][0] == TTT[1][1] == TTT[2][2]) and (TTT[0][0] is not None):
+        # game won diagonally left to right
+        winner = TTT[0][0]
+        pg.draw.line(screen, (250, 70, 70), (50, 50), (350, 350), 4)
