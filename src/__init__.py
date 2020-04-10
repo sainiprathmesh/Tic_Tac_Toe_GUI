@@ -152,3 +152,6 @@ def reset_game():
     game_opening()
     winner = None
     TTT = [[None] * 3, [None] * 3, [None] * 3]
+
+
+game_opening()
