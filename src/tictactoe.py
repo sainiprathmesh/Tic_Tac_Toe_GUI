@@ -1,7 +1,7 @@
+import sys
 import time
 
 import pygame as pg
-import sys
 from pygame.locals import *
 
 XO = 'x'
