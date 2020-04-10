@@ -40,6 +40,7 @@ def game_opening():
     pg.draw.line(screen, line_color, (0, height / 3 * 2), (width, height / 3 * 2), 7)
     draw_status()
 
+
 def draw_status():
     global draw
 
@@ -58,3 +59,7 @@ def draw_status():
     text_rect = text.get_rect(center=(width / 2, 500 - 50))
     screen.blit(text, text_rect)
     pg.display.update()
+
+
+def check_win():
+    global TTT, winner, draw
