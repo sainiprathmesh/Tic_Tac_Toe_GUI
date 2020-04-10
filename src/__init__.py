@@ -35,3 +35,6 @@ def game_opening():
 
     pg.draw.line(screen, line_color, (width / 3, 0), (width / 3, height), 7)
     pg.draw.line(screen, line_color, (width / 3 * 2, 0), (width / 3 * 2, height), 7)
+
+    pg.draw.line(screen, line_color, (0, height / 3), (width, height / 3), 7)
+    pg.draw.line(screen, line_color, (0, height / 3 * 2), (width, height / 3 * 2), 7)
