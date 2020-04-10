@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="55c2b2d0-e96a-4c8b-872e-3dc1fb7bb721" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586518433209</updated>
-      <workItem from="1586518439185" duration="1293000" />
+      <workItem from="1586518439185" duration="1542000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1586518534993</created>
@@ -136,7 +137,42 @@
       <option name="project" value="LOCAL" />
       <updated>1586519911957</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="resizing o image">
+      <created>1586519928427</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1586519928427</updated>
+    </task>
+    <task id="LOCAL-00014" summary="resizing opening image">
+      <created>1586519962063</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1586519962063</updated>
+    </task>
+    <task id="LOCAL-00015" summary="declared game_opening function">
+      <created>1586520040820</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520040820</updated>
+    </task>
+    <task id="LOCAL-00016" summary="drawing vertical line">
+      <created>1586520067884</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520067884</updated>
+    </task>
+    <task id="LOCAL-00017" summary="drawing horizontal line">
+      <created>1586520094142</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520094142</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,16 +191,21 @@
     <MESSAGE value="loading the images" />
     <MESSAGE value="image file added to folder" />
     <MESSAGE value="resizing x image" />
-    <option name="LAST_COMMIT_MESSAGE" value="resizing x image" />
+    <MESSAGE value="resizing o image" />
+    <MESSAGE value="resizing opening image" />
+    <MESSAGE value="declared game_opening function" />
+    <MESSAGE value="drawing vertical line" />
+    <MESSAGE value="drawing horizontal line" />
+    <option name="LAST_COMMIT_MESSAGE" value="drawing horizontal line" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="54" key="CommitChangelistDialog2" timestamp="1586520067596">
+    <state x="297" y="54" key="CommitChangelistDialog2" timestamp="1586520093903">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="297" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586520067596" />
+    <state x="297" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586520093903" />
     <state x="570" y="350" key="Github.ShareDialog" timestamp="1586518587341">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
