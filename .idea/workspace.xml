@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55c2b2d0-e96a-4c8b-872e-3dc1fb7bb721" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
-    </list>
+    <list default="true" id="55c2b2d0-e96a-4c8b-872e-3dc1fb7bb721" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586518433209</updated>
-      <workItem from="1586518439185" duration="1542000" />
+      <workItem from="1586518439185" duration="1794000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1586518534993</created>
@@ -178,7 +175,56 @@
       <option name="project" value="LOCAL" />
       <updated>1586520094142</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="draw_status function designed">
+      <created>1586520183045</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520183045</updated>
+    </task>
+    <task id="LOCAL-00019" summary="draw_status function called">
+      <created>1586520207009</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520207009</updated>
+    </task>
+    <task id="LOCAL-00020" summary="check_win function declared">
+      <created>1586520243428</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520243428</updated>
+    </task>
+    <task id="LOCAL-00021" summary="check for winning rows">
+      <created>1586520279374</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520279374</updated>
+    </task>
+    <task id="LOCAL-00022" summary="this row won">
+      <created>1586520312548</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520312548</updated>
+    </task>
+    <task id="LOCAL-00023" summary="check for winning column">
+      <created>1586520364249</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520364249</updated>
+    </task>
+    <task id="LOCAL-00024" summary="check for diagonal winner">
+      <created>1586520414537</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520414537</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,16 +248,23 @@
     <MESSAGE value="declared game_opening function" />
     <MESSAGE value="drawing vertical line" />
     <MESSAGE value="drawing horizontal line" />
-    <option name="LAST_COMMIT_MESSAGE" value="drawing horizontal line" />
+    <MESSAGE value="draw_status function designed" />
+    <MESSAGE value="draw_status function called" />
+    <MESSAGE value="check_win function declared" />
+    <MESSAGE value="check for winning rows" />
+    <MESSAGE value="this row won" />
+    <MESSAGE value="check for winning column" />
+    <MESSAGE value="check for diagonal winner" />
+    <option name="LAST_COMMIT_MESSAGE" value="check for diagonal winner" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="54" key="CommitChangelistDialog2" timestamp="1586520364047">
+    <state x="297" y="54" key="CommitChangelistDialog2" timestamp="1586520414247">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="297" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586520364047" />
+    <state x="297" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586520414247" />
     <state x="570" y="350" key="Github.ShareDialog" timestamp="1586518587341">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

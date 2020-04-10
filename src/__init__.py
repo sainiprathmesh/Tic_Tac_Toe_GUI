@@ -79,6 +79,13 @@ def check_win():
             break
 
     if (TTT[0][0] == TTT[1][1] == TTT[2][2]) and (TTT[0][0] is not None):
-        # game won diagonally left to right
         winner = TTT[0][0]
         pg.draw.line(screen, (250, 70, 70), (50, 50), (350, 350), 4)
+
+        if (TTT[0][2] == TTT[1][1] == TTT[2][0]) and (TTT[0][2] is not None):
+            winner = TTT[0][2]
+            pg.draw.line(screen, (250, 70, 70), (350, 50), (50, 350), 4)
+
+        if all([all(row) for row in TTT]) and winner is None:
+            draw = True
+        draw_status()
