@@ -19,3 +19,5 @@ pg.display.set_caption("Tic Tac Toe")
 opening = pg.image.load('tic tac opening.png')
 x_img = pg.image.load('x.png')
 o_img = pg.image.load('o.png')
+
+x_img = pg.transform.scale(x_img, (80, 80))
