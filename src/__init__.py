@@ -38,7 +38,7 @@ def game_opening():
 
     pg.draw.line(screen, line_color, (0, height / 3), (width, height / 3), 7)
     pg.draw.line(screen, line_color, (0, height / 3 * 2), (width, height / 3 * 2), 7)
-
+    draw_status()
 
 def draw_status():
     global draw
