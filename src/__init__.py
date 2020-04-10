@@ -1,6 +1,8 @@
 import time
 
 import pygame as pg
+import sys
+from pygame.locals import *
 
 XO = 'x'
 winner = None
@@ -155,3 +157,16 @@ def reset_game():
 
 
 game_opening()
+
+while True:
+    for event in pg.event.get():
+        if event.type == QUIT:
+            pg.quit()
+            sys.exit()
+        elif event.type is MOUSEBUTTONDOWN:
+            userClick()
+            if winner or draw:
+                reset_game()
+
+    pg.display.update()
+    CLOCK.tick(fps)

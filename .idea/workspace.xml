@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55c2b2d0-e96a-4c8b-872e-3dc1fb7bb721" name="Default Changelist" comment="" />
+    <list default="true" id="55c2b2d0-e96a-4c8b-872e-3dc1fb7bb721" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +57,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586518433209</updated>
-      <workItem from="1586518439185" duration="1794000" />
+      <workItem from="1586518439185" duration="2036000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1586518534993</created>
@@ -224,7 +227,42 @@
       <option name="project" value="LOCAL" />
       <updated>1586520414537</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="result concluded">
+      <created>1586520457412</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520457412</updated>
+    </task>
+    <task id="LOCAL-00026" summary="draw x0">
+      <created>1586520484264</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520484264</updated>
+    </task>
+    <task id="LOCAL-00027" summary="mouse click response recorded">
+      <created>1586520557802</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520557802</updated>
+    </task>
+    <task id="LOCAL-00028" summary="function for reset te game">
+      <created>1586520606007</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520606007</updated>
+    </task>
+    <task id="LOCAL-00029" summary="again game_opening called">
+      <created>1586520629978</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1586520629978</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,9 +270,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="init commit" />
-    <MESSAGE value="package created src" />
-    <MESSAGE value="pygame module installed" />
     <MESSAGE value="module imported pygame, sys and time" />
     <MESSAGE value="global variable declared" />
     <MESSAGE value="3 * 3 board code done" />
@@ -255,16 +290,21 @@
     <MESSAGE value="this row won" />
     <MESSAGE value="check for winning column" />
     <MESSAGE value="check for diagonal winner" />
-    <option name="LAST_COMMIT_MESSAGE" value="check for diagonal winner" />
+    <MESSAGE value="result concluded" />
+    <MESSAGE value="draw x0" />
+    <MESSAGE value="mouse click response recorded" />
+    <MESSAGE value="function for reset te game" />
+    <MESSAGE value="again game_opening called" />
+    <option name="LAST_COMMIT_MESSAGE" value="again game_opening called" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="297" y="54" key="CommitChangelistDialog2" timestamp="1586520605863">
+    <state x="297" y="54" key="CommitChangelistDialog2" timestamp="1586520629827">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="297" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586520605863" />
+    <state x="297" y="54" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1586520629827" />
     <state x="570" y="350" key="Github.ShareDialog" timestamp="1586518587341">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
