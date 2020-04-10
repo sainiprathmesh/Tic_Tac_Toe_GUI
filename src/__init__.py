@@ -32,3 +32,6 @@ def game_opening():
     pg.display.update()
     time.sleep(1)
     screen.fill(white)
+
+    pg.draw.line(screen, line_color, (width / 3, 0), (width / 3, height), 7)
+    pg.draw.line(screen, line_color, (width / 3 * 2, 0), (width / 3 * 2, height), 7)
